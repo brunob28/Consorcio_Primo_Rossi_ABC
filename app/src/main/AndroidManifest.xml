@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brunob28.consorcioprimorossiabc" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone48"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SimuladorAActivity"
+            android:label="@string/title_activity_simulador_a"
+            android:parentActivityName=".MenuActivity" >
+        </activity>
+        <activity
+            android:name=".GrupoActivity"
+            android:label="@string/title_activity_grupo" >
+        </activity>
+        <activity
+            android:name=".ValorCreditoActivity"
+            android:label="@string/title_activity_valor_credito" >
+        </activity>
+        <activity
+            android:name=".PercentuaisActivity"
+            android:label="@string/title_activity_porcentuais" >
+        </activity>
+        <activity
+            android:name=".SimuladorBActivity"
+            android:label="@string/title_activity_simulador_b" >
+        </activity>
+        <activity
+            android:name=".SimuladorCActivity"
+            android:label="@string/title_activity_simulador_c" >
+        </activity>
+        <activity
+            android:name=".ParcelasActivity"
+            android:label="@string/title_activity_parcelas" >
+        </activity>
+    </application>
+
+</manifest>

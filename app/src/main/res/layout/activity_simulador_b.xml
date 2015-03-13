@@ -1,0 +1,246 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:padding="0dp"
+    android:background="#006bb1" >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="320dp"
+        android:layout_height="480dp"
+        android:layout_gravity="center"
+        android:padding="0dp" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="320dp"
+            android:layout_height="480dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            tools:context="com.brunob28.consorcioprimorossiabc.SimuladorBActivity"
+            android:id="@+id/SimuladorBActivity"
+            >
+
+            <ImageView
+                android:layout_marginTop="0dp"
+                android:layout_width="320dp"
+                android:layout_height="480dp"
+                android:layout_gravity="top"
+                android:id="@+id/menuBView"
+                android:src="@drawable/simuladorb" />
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="Escolha"
+                android:id="@+id/txt_grupo"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:onClick="clicouGrupo"
+                android:clickable="true"
+                android:layout_marginTop="87dp"
+                android:layout_marginLeft="183dp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_valorcredito"
+                android:layout_marginTop="71dp"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_marginLeft="-34dp"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:onClick="clicouValorCredito"
+                android:maxLines="1"
+                android:gravity="left"
+                android:layout_below="@+id/txt_grupo"
+                android:textColor="#ffffff"
+                android:text="" />
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:gravity="center"
+                android:id="@+id/txt_percentual1"
+                android:layout_marginTop="228dp"
+                android:layout_toLeftOf="@+id/txt_valorcredito"
+                android:layout_toStartOf="@+id/txt_valorcredito"
+                android:layout_marginRight="38dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:clickable="true"
+                android:onClick="clicouPercentuais" />
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:gravity="center"
+                android:id="@+id/txt_percentual2"
+                android:layout_marginTop="266dp"
+                android:layout_toLeftOf="@+id/txt_valorcredito"
+                android:layout_toStartOf="@+id/txt_valorcredito"
+                android:layout_marginRight="38dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:clickable="true"
+                android:onClick="clicouPercentuais" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_d14"
+                android:layout_marginTop="111dp"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_marginLeft="-34dp"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:gravity="left"
+                android:layout_below="@+id/txt_grupo"
+                android:textColor="#ffffff"
+                android:text="" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_d15"
+                android:layout_marginTop="148dp"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_marginLeft="-34dp"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                 android:maxLines="1"
+                android:gravity="left"
+                android:layout_below="@+id/txt_grupo"
+                android:textColor="#ffffff"
+                android:text="" />
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:gravity="center"
+                android:id="@+id/txt_c16"
+                android:layout_marginTop="303dp"
+                android:layout_toLeftOf="@+id/txt_valorcredito"
+                android:layout_toStartOf="@+id/txt_valorcredito"
+                android:layout_marginRight="38dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_d16"
+                android:layout_marginTop="184dp"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_marginLeft="-34dp"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:gravity="left"
+                android:layout_below="@+id/txt_grupo"
+                android:textColor="#ffffff"
+                android:text="" />
+
+            <TextView
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_c21"
+                android:layout_marginTop="223dp"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_marginLeft="-80dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:maxLines="1"
+                android:gravity="left"
+                android:layout_below="@+id/txt_grupo"
+                android:textColor="#0158bf"
+                android:text="" />
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_c23"
+                android:layout_marginTop="263dp"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_marginLeft="-82dp"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:gravity="left"
+                android:layout_below="@+id/txt_grupo"
+                android:textColor="#0158bf"
+                android:text="" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txt_d23"
+                android:layout_marginTop="267dp"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_marginLeft="9dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:gravity="center"
+                android:layout_below="@+id/txt_grupo"
+                android:textColor="#01ac4c"
+                android:text="" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:id="@+id/cmd_sair"
+                android:onClick="sairOnClick"
+                android:gravity="left"
+                android:layout_toEndOf="@+id/txt_grupo"
+                android:layout_toRightOf="@+id/txt_grupo"
+                android:layout_below="@+id/txt_grupo"
+                android:layout_marginTop="282dp"
+                android:layout_marginLeft="-65dp"
+                android:alpha="0" />
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="30dp"
+                android:id="@+id/cmd_recalcular"
+                android:onClick="clicouRecalcular"
+                android:gravity="left"
+                android:layout_toLeftOf="@+id/cmd_sair"
+                android:layout_below="@+id/txt_grupo"
+                android:layout_marginTop="282dp"
+                android:layout_marginRight="88dp"
+                android:alpha="0" />
+
+        </RelativeLayout>
+
+</ScrollView>
+
+</ScrollView>

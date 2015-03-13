@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:padding="0dp"
+    android:background="#006bb1" >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="320dp"
+        android:layout_height="480dp"
+        android:layout_gravity="center"
+        android:padding="0dp" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="480dp"
+    tools:context=".MenuActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+   <ImageView
+       android:id="@+id/menu_1View"
+       android:layout_width="320dp"
+       android:src="@drawable/menu_1"
+       android:layout_height="157dp" />
+
+    <ImageView
+        android:id="@+id/menu_2View"
+        android:src="@drawable/menu_2"
+        android:layout_height="67dp"
+        android:layout_width="320dp"
+        android:onClick="buttonAOnClick" />
+
+    <ImageView
+        android:id="@+id/menu_3View"
+        android:src="@drawable/menu_3"
+        android:layout_height="77.5dp"
+        android:layout_width="320dp"
+        android:onClick="buttonBOnClick" />
+
+    <ImageView
+        android:id="@+id/menu_4View"
+        android:src="@drawable/menu_4"
+        android:layout_height="77.5dp"
+        android:layout_width="320dp"
+        android:onClick="buttonCOnClick" />
+
+    <ImageView
+        android:id="@+id/menu_5View"
+        android:src="@drawable/menu_5"
+        android:layout_height="101dp"
+        android:layout_width="320dp" />
+
+</LinearLayout>
+
+</ScrollView>
+
+</ScrollView>
+

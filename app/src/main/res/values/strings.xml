@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Consorcio Primo Rossi ABC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_simulador_a">SimuladorAActivity</string>
+    <string name="title_activity_grupo">GrupoActivity</string>
+    <string name="title_activity_valor_credito">ValorCreditoActivity</string>
+    <string name="title_activity_porcentuais">PorcentuaisActivity</string>
+    <string name="title_activity_simulador_b">SimuladorBActivity</string>
+    <string name="title_activity_simulador_c">SimuladorCActivity</string>
+    <string name="title_activity_parcelas">ParcelasActivity</string>
+
+</resources>
